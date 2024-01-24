@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>模仿百度</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+    }
+
+    #container {
+      width: 960px;
+      margin: 0 auto;
+      padding-top: 30px;
+    }
+
+    #navigation {
+      text-align: right;
+      margin-top: 10px;
+    }
+
+    #navigation ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navigation ul li {
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    #navigation ul li a {
+      color: #333;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 5px;
+    }
+
+    #navigation ul li a:hover {
+      color: #3385ff;
+    }
+
+    #more-products {
+      border: 2px solid #3385ff;
+      border-radius: 5px;
+      padding: 8px;
+      display: inline-block;
+    }
+
+    #logo {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    #logo img {
+      height: 80px;
+    }
+
+    #search-form {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    #search-form input[type="text"] {
+      width: 500px;
+      height: 30px;
+      padding: 5px 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    #search-form input[type="submit"] {
+      height: 30px;
+      padding: 0 20px;
+      font-size: 16px;
+      background-color: #3385ff;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    #footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+
+    #footer img {
+      max-width: 150px;
+      height: auto;
+    }
+
+    #app-text {
+      color: #000000;
+      margin-top: 2px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    #footer-buttons {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f7f7f7;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #footer-buttons a {
+      font-size: 10px;
+      color: #999;
+      text-decoration: none;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="navigation">
+      <ul>
+        <li><a href="#">新闻</a></li>
+        <li><a href="#">hao123</a></li>
+        <li><a href="#">地图</a></li>
+        <li><a href="#">视频</a></li>
+        <li><a href="#">贴吧</a></li>
+        <li><a href="#">学术</a></li>
+        <li><a href="#">登录</a></li>
+        <li><a href="#">设置</a></li>
+        <li id="more-products"><a href="#">更多产品</a></li>
+      </ul>
+    </div>
+    <div id="logo">
+      <img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="百度logo">
+      <div id="search-form">
+        <form>
+          <input type="text" name="keyword" placeholder="请输入搜索关键词">
+          <input type="submit" value="搜索"
+            style="box-sizing: border-box; height: 41px; padding: 0 20px; font-size: 16px; background-color: #3385ff; color: #fff; border: none; border-radius: 3px; cursor: pointer;">
+        </form>
+      </div>
+      <div id="footer">
+        <img src="/images/QRcode.jpg" alt="下载百度APP">
+        <div id="app-text">
+          下载百度APP<br>
+          <span style="color: #999;">有事搜一搜，没事看一看</span>
+        </div>
+      </div>
+      <div id="footer-buttons">
+        <a href="#">关于百度</a>
+        <a href="#">About Baidu</a>
+        <a href="#">使用百度前必读</a>
+        <a href="#">帮助中心</a>
+        <a href="#">企业推广</a>
+        <a href="#">京公网安备11000002000001号</a>
+        <a href="#">京ICP证030173号</a>
+        <a href="#">互联网新闻信息服务许可证11220180008</a>
+      </div>
+    </div>
+</body>
+
+</html>
